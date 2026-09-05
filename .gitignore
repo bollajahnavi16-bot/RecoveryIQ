@@ -1,0 +1,26 @@
+# Environment & Credentials (CRITICAL - NEVER COMMIT)
+.env
+.env*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+recoveriq.db
+*.joblib.bak
+
+# Node & Frontend Build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+logs/
